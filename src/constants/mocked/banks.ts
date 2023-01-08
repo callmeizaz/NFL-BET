@@ -1,0 +1,41 @@
+const bankList = [
+  {
+    id: "btok_1IoDKWHLMB3TsWb24JHiO9z7",
+    object: "bank_account",
+    account_holder_name: "Jane Doe",
+    account_holder_type: "individual",
+    bank_name: "STRIPE TEST BANK",
+    country: "US",
+    currency: "usd",
+    last4: "6789",
+    name: "Jane Doe",
+    routing_number: "110000000",
+    status: "new",
+    client_ip: "47.29.94.214",
+    created: 1620331072,
+    livemode: false,
+    type: "bank_account",
+    used: false,
+  },
+  {
+    id: "btok_1IoDKWHLMB3TsWb24JHiO9z8",
+    object: "bank_account",
+    account_holder_name: "John Smith",
+    account_holder_type: "individual",
+    bank_name: "STRIPE TEST BANK",
+    country: "US",
+    currency: "usd",
+    last4: "4589",
+    name: "John Smith",
+    routing_number: "110000000",
+    status: "new",
+    client_ip: "47.29.94.214",
+    created: 1620331072,
+    livemode: false,
+    type: "bank_account",
+    used: false,
+  },
+];
+
+export { bankList };
+
